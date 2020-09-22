@@ -1,0 +1,17 @@
+{
+  "name": "nodeapi_clean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  
+  "author": "weslley fratini",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^5.0.0-alpha.5",
+    "lint-staged": "^10.4.0",
+    "standard": "^14.3.4"
+  }
+}
