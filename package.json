@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest --watchALL --colors",
     "test: staged": "jest"
   },
-  "standard":{
-    "env":["jest"]
+  "standard": {
+    "env": [
+      "jest"
+    ]
   },
-  "author": "weslley fratini",
+  "author": "Weslley Fratini",
   "license": "ISC",
   "devDependencies": {
     "husky": "^5.0.0-alpha.5",
