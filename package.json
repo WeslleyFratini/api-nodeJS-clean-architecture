@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchALL --colors",
+    "teste:unit": "npm teste -- --watch -c jest-unit-config.js",
+    "teste:integration": "npm teste -- --watch -c jest-integration-config.js",
     "test: staged": "jest"
   },
   "standard": {
