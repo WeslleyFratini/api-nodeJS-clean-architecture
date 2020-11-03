@@ -20,6 +20,8 @@
   "author": "Weslley Fratini",
   "license": "ISC",
   "devDependencies": {
+    "@shelf/jest-mongodb": "^1.2.3",
+    "add": "^2.0.6",
     "husky": "^5.0.0-alpha.5",
     "lint-staged": "^10.4.0",
     "standard": "^14.3.4"
@@ -27,6 +29,7 @@
   "dependencies": {
     "bcrypt": "^5.0.0",
     "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.2",
     "validator": "^13.1.17"
   }
 }
